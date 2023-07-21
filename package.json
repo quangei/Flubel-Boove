@@ -10,6 +10,8 @@
     "winx86": "electron-builder build --win --ia32",
     "linux64": "electron-builder build --linux --x64",
     "linux86": "electron-builder build --linux --ia32",
+    "macosx64": "electron-builder build --mac --x64",
+    "macosx86": "electron-builder build --mac --ia32",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Fiend <undefined@gmail.com>",
